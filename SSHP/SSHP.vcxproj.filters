@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="..\3rd\fmt-7.1.0\src\format.cc">
+      <Filter>fmt-7.1.0\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\3rd\fmt-7.1.0\src\os.cc">
+      <Filter>fmt-7.1.0\src</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="websocket.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="fmt-7.1.0">
+      <UniqueIdentifier>{8e86ba87-33e1-4c4d-a16f-046a3d6ea204}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="fmt-7.1.0\include">
+      <UniqueIdentifier>{594e94d1-54fe-47f6-b552-8f30eb8fba00}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="fmt-7.1.0\src">
+      <UniqueIdentifier>{d478b418-2fe2-48e3-b979-744f8c4e22eb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{84c58a38-f8f8-4f62-9fb8-0a3a29ad7acd}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\3rd\fmt-7.1.0\include\fmt\chrono.h">
+      <Filter>fmt-7.1.0\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\3rd\fmt-7.1.0\include\fmt\color.h">
+      <Filter>fmt-7.1.0\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\3rd\fmt-7.1.0\include\fmt\compile.h">
+      <Filter>fmt-7.1.0\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\3rd\fmt-7.1.0\include\fmt\core.h">
+      <Filter>fmt-7.1.0\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\3rd\fmt-7.1.0\include\fmt\format.h">
+      <Filter>fmt-7.1.0\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\3rd\fmt-7.1.0\include\fmt\format-inl.h">
+      <Filter>fmt-7.1.0\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\3rd\fmt-7.1.0\include\fmt\locale.h">
+      <Filter>fmt-7.1.0\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\3rd\fmt-7.1.0\include\fmt\os.h">
+      <Filter>fmt-7.1.0\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\3rd\fmt-7.1.0\include\fmt\ostream.h">
+      <Filter>fmt-7.1.0\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\3rd\fmt-7.1.0\include\fmt\posix.h">
+      <Filter>fmt-7.1.0\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\3rd\fmt-7.1.0\include\fmt\printf.h">
+      <Filter>fmt-7.1.0\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\3rd\fmt-7.1.0\include\fmt\ranges.h">
+      <Filter>fmt-7.1.0\include</Filter>
+    </ClInclude>
+    <ClInclude Include="aops.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="check.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="get.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="index.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="login.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="websocket.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
